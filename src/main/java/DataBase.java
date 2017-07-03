@@ -14,7 +14,7 @@ public class DataBase {
 
     // JDBC driver name and database URL
     static final String JDBC_DRIVER = "org.sqlite.JDBC";
-    static final String DB_URL = "jdbc:sqlite:db/test.db";
+    static final String DB_URL = "jdbc:sqlite:test.db";
 
     // Database credentials
     // static final String USER = "username";

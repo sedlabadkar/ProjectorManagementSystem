@@ -29,8 +29,11 @@ Other dependencies are:
 This a maven project, all the dependencies will be handled by maven. Use the following commands:
 
 * `mvn test` - Executes basic tests on the app 
+
 * `mvn -e exec:java -Dexec.mainClass="App"` - Will build and execute the app
+
 * `mvn clean package` = Generates 2 jar files under target. jar-with-dependencies can be executed as it includes all the dependencies
+	* The resulting jar can be executed as `java -cp target/LeanTaasCodingTest-1.0-SNAPSHOT-jar-with-dependencies.jar App`
 
 
 
